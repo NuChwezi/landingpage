@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Russo+One);
+
+.brand {
+    font-family: 'Russo One', sans-serif;
+}
+
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none !important;
+}
+
+/*
+ * Sugar!
+ * ------
+ * Because I love effective color!
+ * http://www.colourlovers.com/palette/848743/(%E2%97%95_%E2%80%9D_%E2%97%95)
+ *
+ */
+h1.sugar {
+    color : #6f6f6f;
+}
+
+.brand.sugar {
+    color : #f04124; /* because, we are more important than we ever thought! */
+}
+
+hr.sugar {
+    border-top: 1px solid #490A3D;
+}
+
+.btn-link.sugar {
+    color : #d08002;
+}
+/* End Sugar */
+
+.project {
+}
+
+.nobg {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+
+.start {
+    color: #f5f5f5 !important;
+    margin: 5px;
+}
+
+
+/*
+
+Going CREATIVE!!!
+Going more BLUE!!
+
+*/
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
+color: #3db5d8;
+}
+
+
+.project .thumbnail  {
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/round.png");
+    border-top: #d08002 6px solid;
+    border-radius: 3px;
+}
+
+a {
+    color: #e99002;
+}
+
+/* for BTC */
+span.btc {
+    color: coral;
+}
+
+img.logo {
+    width: 95px;
+}
+
+/* solve issues with abnormally large thumbnail images */
+.thumbnail>img, .thumbnail a>img {
+    max-height: 250px;
+}
+
+.notice {
+    font-size: small;
+    font-style: italic;
+}
