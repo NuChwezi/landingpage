@@ -62,7 +62,9 @@ color: #3db5d8;
 
 .project .thumbnail  {
     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/round.png");
-    border-top: #d08002 6px solid;
+    /*border-top: #d08002 6px solid; *//* classic */
+    /*border-top: #E91E63 6px solid ; *//* wau */
+    border-top: #03A9F4 6px solid; /* eka */
     border-radius: 3px;
 }
 
@@ -73,6 +75,7 @@ a {
 /* for BTC */
 span.btc {
     color: coral;
+    font-size: 15px;
 }
 
 img.logo {
