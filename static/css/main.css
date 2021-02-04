@@ -101,8 +101,8 @@ img.logo {
     margin-top: 10px;
 }
 
-.btn-broad.btn-warning {
+.btn-broad {
     color: #fff;
-    background-color: #a900c1;
-    border-color: #28cfa8;
+    background-color: #a900c1 !important;
+    border-color: #28cfa8 !important;
 }
