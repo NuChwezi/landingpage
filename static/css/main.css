@@ -91,3 +91,18 @@ img.logo {
     font-size: small;
     font-style: italic;
 }
+
+.thumbnail > img, .thumbnail a > img {
+    width: 100%;
+}
+
+.btn-broad {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn-broad.btn-warning {
+    color: #fff;
+    background-color: #a900c1;
+    border-color: #28cfa8;
+}
