@@ -106,3 +106,8 @@ img.logo {
     background-color: #a900c1 !important;
     border-color: #28cfa8 !important;
 }
+
+.embeds {
+    width: 80vw;
+    height: 1000px;
+}
