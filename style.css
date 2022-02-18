@@ -109,3 +109,13 @@ a::after {
 .errorcode {
   color: yellow;
 }
+
+h1 {
+  animation: blinker 1s step-start infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
