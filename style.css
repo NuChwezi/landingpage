@@ -11,10 +11,10 @@ body {
   background-image: radial-gradient(#11581E, #041607);
   font-family: 'Inconsolata', Helvetica, sans-serif;
   font-size: 1.5rem;
-  color: rgba(255, 255, 128, 0.8);
+  color: rgba(255, 105, 128, 0.8);
   text-shadow:
-      0 0 1ex rgba(51, 255, 51, 1),
-      0 0 2px rgba(255, 255, 255, 0.8);
+      0 0 1ex rgba(51, 255, 255, 1),
+      0 0 2px rgba(111, 0, 0, 0.8);
 }
 
 .overlay {
