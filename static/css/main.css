@@ -111,3 +111,7 @@ img.logo {
     width: 80vw;
     height: 1000px;
 }
+
+.start a {
+    color: #02e931;
+}
