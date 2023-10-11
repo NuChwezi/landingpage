@@ -2,6 +2,7 @@
 
 .brand {
     font-family: 'Russo One', sans-serif;
+    text-shadow: #0f5905 2px 4px;
 }
 
 
@@ -30,7 +31,10 @@ hr.sugar {
 }
 
 .btn-link.sugar {
-    color : #d08002;
+    color: #337ab7;
+    font-family: monospace;
+    font-size: larger;
+
 }
 /* End Sugar */
 
@@ -44,8 +48,9 @@ hr.sugar {
 
 
 .start {
-    color: #f5f5f5 !important;
+    color: #3d1d3b !important;
     margin: 5px;
+    font-weight: bold;
 }
 
 
@@ -61,10 +66,11 @@ color: #3db5d8;
 
 
 .project .thumbnail  {
-    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/round.png");
+    /*background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/round.png"); */
     /*border-top: #d08002 6px solid; *//* classic */
     /*border-top: #E91E63 6px solid ; *//* wau */
-    border-top: #03A9F4 6px solid; /* eka */
+    /* border-top: #03A9F4 6px solid; /* eka */
+    border-top: #aad1c8 21px dashed; /* modern */
     border-radius: 3px;
 }
 
@@ -113,5 +119,10 @@ img.logo {
 }
 
 .start a {
-    color: #02e931;
+    color: #f00;
+}
+
+/* the moder ui */
+.thumbnail {
+   box-shadow: #157f6c 2px 4px;
 }
