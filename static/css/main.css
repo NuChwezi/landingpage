@@ -130,3 +130,8 @@ img.logo {
 .thumbnail {
    box-shadow: #157f6c 2px 4px;
 }
+
+img.lit {
+    max-height: fit-content;
+    height: fit-content;
+}
