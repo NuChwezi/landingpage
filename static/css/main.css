@@ -135,3 +135,23 @@ img.lit {
     max-height: fit-content;
     height: fit-content;
 }
+
+
+/* for blinking text */
+.blink {
+  animation: blinker 1s step-start infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* embolden errors */
+.b_error {
+	color: red; 
+	font-weight: bold; 
+	font-size: large;
+}
+
