@@ -109,7 +109,7 @@
                                         <br/>
                                     </p -->
 
-<div class="collapsible notice" title="Click to Read Latest UPDATES..."><b>UPDATES</b></div>
+                                    <div class="collapsible header notice" title="Click to Read Latest UPDATES..."><b>UPDATES</b> <span class="collapsible-handle">***</span></div>
     <div class="collapsible-content">
 
                                         <ul>
@@ -176,7 +176,7 @@ First of all, Joseph Willrich Lutalo C.M.R.W., our President, CTO, Founder and C
                   <li> JWL General Research & Leadership: <a href="https://nuchwezi.com" title="Nuchwezi Homepage" target="_blank">NUCHWEZI</a></li>
               </ol>
 
-                                    <a href="https://chwezi.tech" class="btn btn-lg btn-default" target="_blank" role="button"  data-sc="5" data-ti="research:view:list"><i class="fa fa-cap"></i> JWL Portfolios </a>
+                                    <a href="https://chwezi.tech" class="btn btn-default" target="_blank" role="button"  data-sc="5" data-ti="research:view:list"><i class="fa fa-cap"></i> JWL Portfolios </a>
 
                                     <a href="https://bit.ly/profjwl" class="btn btn-success" target="_blank" role="button" data-sc="5" data-ti="research:academia:view"><i class="fa fa-book"></i> JWL on <br/>ACADEMIA</a>
 
@@ -1038,7 +1038,9 @@ TTTT comes with an in-built mechanism to allow TEA beginners to import some exam
 
 			document.querySelector('.collapsible').addEventListener('click', function() {
 				var content = document.querySelector('.collapsible-content');
+				var handle = document.querySelector('.collapsible-handle');
 				content.style.display = content.style.display === 'block' ? 'none' : 'block';
+				handle.innerText = content.style.display === 'block' ? '[X]' : '***';
 			});
         </script>
         <script>

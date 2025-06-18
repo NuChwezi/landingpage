@@ -163,14 +163,26 @@ img.lit {
     border: 1px solid #ccc;
     text-align: left;
     font-weight: bold;
-margin: 10px;
+    margin: 10px;
+    border-bottom: solid black 2px;
 }
 
 .collapsible-content {
     display: none;
     padding: 10px;
-margin: 10px;
+    margin: 10px;
     border: 1px solid #ccc;
     border-top: none;
-background-color: white !important;
+    background-color: white !important;
+}
+
+.collapsible-handle {
+    float: right;
+    font-size: large;
+    color: darkred;
+}
+
+
+.collapsible.header {
+    font-style:normal;
 }
