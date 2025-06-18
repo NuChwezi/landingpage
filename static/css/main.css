@@ -155,3 +155,22 @@ img.lit {
 	font-size: large;
 }
 
+
+ .collapsible {
+    cursor: pointer;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    font-weight: bold;
+margin: 10px;
+}
+
+.collapsible-content {
+    display: none;
+    padding: 10px;
+margin: 10px;
+    border: 1px solid #ccc;
+    border-top: none;
+background-color: white !important;
+}

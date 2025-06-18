@@ -108,10 +108,13 @@
                                         <a href="https://bit.ly/appsera" target="_blank">shop some apps from the lab</a>. 
                                         <br/>
                                     </p -->
-                                    <div class="notice"><b>UPDATES:</b> 
+
+<div class="collapsible notice" title="Click to Read Latest UPDATES..."><b>UPDATES</b></div>
+    <div class="collapsible-content">
+
                                         <ul>
 
-                                            <li class="media">Not exactly that the team at NML is currently working on a Holywood-quality cinema project, but, moving forward, official NML OSS has a home <a href="https://github.com/NuChwezi/nml" target="_blank">online (GitHub)</a> | so, future can be remixable too </li>
+                                            <li>Not exactly that the team at NML is currently working on a Holywood-quality cinema project, but, moving forward, official NML OSS has a home <a href="https://github.com/NuChwezi/nml" target="_blank">online (GitHub)</a> | so, future can be remixable too </li>
                                             <li><b style="color:blue">ROCK 'N' DRAW</b> has recently been manifested from our reseach efforts in the form of a historically important <b>literary fiction</b> full-length novel penned by our resident author, JWL. Go check the higlights via <a target="_blank" href="https://youtu.be/4CiG8eLo7ig">book higlights</a> or can directly jump in and read the book via <a target="_blank" href="https://www.academia.edu/128601975/ROCK_N_DRAW_2025_">ROCK 'N' DRAW [pdf]</a> 
 </li>
 
@@ -137,7 +140,8 @@
                                                 Further development on MoTracy (MoT) the MTN variant of the Mobile Money analytics solution from our lab is temporarily under hold for lack of funding. The same applies to AMT, the equivalent solution for Airtel Money subscribers. If you are interested or wish to get involved, don't hesitate to reach out to us.</li>
 -->
                                         </ul>
-                                    </div>
+    </div>
+
                                 </div>
                             </div>
 
@@ -946,6 +950,19 @@ TTTT comes with an in-built mechanism to allow TEA beginners to import some exam
 
                               <div class="project partner col-sm-6 col-md-4">
                                 <div class="thumbnail">
+                                    <img src="/static/images/partners/bekks.png" alt="Bekks Group of Companies">
+                                  <div class="caption">
+                                      <h3>BEKKS Group (<a href="#" target="_blank">bekks.net</a>)</h3>
+                                    <p>We used to provide ICT consultation services & build their micro-finance technologies. Perhaps this company is not active anymore.</p>
+                                  </div>
+                                </div>
+                              </div>
+
+
+
+                              <!--
+                              <div class="project partner col-sm-6 col-md-4">
+                                <div class="thumbnail">
                                     <img style="max-height:none;" src="/static/images/partners/Mak.png" alt="Prof. Donald (Makerere University)">
                                   <div class="caption">
                                       <h3>Professor Donald K.R (<a href="https://rugirakugonza.com/" target="_blank">rugirakugonza.com</a>)</h3>
@@ -953,6 +970,7 @@ TTTT comes with an in-built mechanism to allow TEA beginners to import some exam
                                   </div>
                                 </div>
                               </div>
+                              -->
 
 
 
@@ -973,16 +991,6 @@ TTTT comes with an in-built mechanism to allow TEA beginners to import some exam
                               </div -->
 
 
-
-                              <div class="project partner col-sm-6 col-md-4">
-                                <div class="thumbnail">
-                                    <img src="/static/images/partners/bekks.png" alt="Bekks Group of Companies">
-                                  <div class="caption">
-                                      <h3>BEKKS Group (<a href="#" target="_blank">bekks.net</a>)</h3>
-                                    <p>We used to provide ICT consultation services & build their micro-finance technologies. Perhaps this company is not active anymore.</p>
-                                  </div>
-                                </div>
-                              </div>
 
 
                               <div class="project partner col-sm-6 col-md-4">
@@ -1027,6 +1035,11 @@ TTTT comes with an in-built mechanism to allow TEA beginners to import some exam
                 jQuery(".brand").fitText(1.2);
                 window.__stats();
             });
+
+			document.querySelector('.collapsible').addEventListener('click', function() {
+				var content = document.querySelector('.collapsible-content');
+				content.style.display = content.style.display === 'block' ? 'none' : 'block';
+			});
         </script>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
