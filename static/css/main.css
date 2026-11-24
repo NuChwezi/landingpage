@@ -65,7 +65,8 @@ Going more BLUE!!
 
 */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
-color: #3db5d8;
+/*color: #3db5d8;*/ /*original*/
+    color: #d83d3d; /*IC*/
 }
 
 
@@ -74,7 +75,8 @@ color: #3db5d8;
     /*border-top: #d08002 6px solid; *//* classic */
     /*border-top: #E91E63 6px solid ; *//* wau */
     /* border-top: #03A9F4 6px solid; /* eka */
-    border-top: #aad1c8 21px dashed; /* modern */
+    /*border-top: #aad1c8 21px dashed; /* modern */
+    border-top: #020605 21px dashed; /* IC */
     border-radius: 3px;
 }
 
